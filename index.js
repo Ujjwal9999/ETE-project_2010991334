@@ -7,7 +7,7 @@ const cors = require('cors')
 app.use(cors())
 
 const PORT  = process.env.PORT || 5000;
-mongoose.connect("mongodb+srv://Kashish:eEtMGT8LdxbqIUxr@kashishvatsh.kwp09li.mongodb.net/?retryWrites=true&w=majority",{
+mongoose.connect("mongodb+srv://ujjwal1:5HgvHgnmE9ZfOq8t@clusterforujjwal.iiruv6d.mongodb.net/?retryWrites=true&w=majority",{
     useNewUrlParser:true,
     useCreateIndex:true,
     useFindAndModify:false,
